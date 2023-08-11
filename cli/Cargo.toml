@@ -36,11 +36,11 @@ semver = "1.0.4"
 serde = { version = "1.0.122", features = ["derive"] }
 serde_json = "1.0"
 shellexpand = "2.1.0"
-solana-client = ">=1.14, <1.17"
-solana-cli-config = ">=1.14, <1.17"
-solana-faucet = ">=1.14, <1.17"
-solana-program = ">=1.14, <1.17"
-solana-sdk = ">=1.14, <1.17"
+solana-client = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies"}
+solana-cli-config = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies"}
+solana-faucet = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies"}
+solana-program = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies"}
+solana-sdk = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies"}
 solang-parser = "=0.3.1"
 syn = { version = "1.0.60", features = ["full", "extra-traits"] }
 tar = "0.4.35"
