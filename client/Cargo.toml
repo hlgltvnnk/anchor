@@ -17,9 +17,9 @@ anyhow = "1"
 futures = "0.3"
 regex = "1"
 serde = { version = "1", features = ["derive"] }
-solana-client = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies"}
-solana-sdk = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies"}
-solana-account-decoder = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies"}
+solana-client = { git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-sdk = { git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-account-decoder = { git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
 thiserror = "1"
 tokio = { version = "1", features = ["rt", "sync"] }
-url = "2"
+url = "2.4.0"
